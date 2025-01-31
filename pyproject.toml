@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "skk"
+version = "2025.1.31"
+description = "对 Python 常用功能的封装"
+dependencies = ["numpy", "pymysql", "aiomysql", "pymongo", "motor", "pyppeteer", "tornado", "openai"]
+
+
+requires-python = ">=3.12"
+readme = "README.md"
+authors = [{name = "许灿标", email = "lcctoor@outlook.com"}]
