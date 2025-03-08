@@ -72,10 +72,13 @@ class Coolstr:
     def __contains__(self, string: str):
         return string in self.string
     
-    def get_mime_types(self):  # -> mime_type, encoding
+    def analyse_mime_type(self):  # -> mime_type, encoding
         if suffix := re.findall(r'\.[^.]+$', self.string):
             if suffix[0] == '.bytes':
                 return 'application/octet-stream', ''
             m, e = mimetypes.guess_type(f"_{suffix[0]}")  # 只有后缀时无法识别，所以得加 _ 前缀
             return m or '', e or ''
         return '', ''
+
+    def __getattr__(self, _name):
+        return object.__getattribute__(self, _name)

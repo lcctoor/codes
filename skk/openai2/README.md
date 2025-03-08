@@ -13,7 +13,7 @@ ChatGPT 工具包，支持多模态对话（gpt-4o）、连续对话、流式对
 # 安装或更新
 
 ```
-pip install --upgrade git+https://github.com/lcctoor/pip.git
+pip install --upgrade git+https://github.com/lcctoor/pip.git@main
 ```
 
 # [获取api_key](https://platform.openai.com/account/api-keys)

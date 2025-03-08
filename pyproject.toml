@@ -4,9 +4,9 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "skk"
-version = "2025.1.31"
+version = "2025.3.8"
 description = "对 Python 常用功能的封装"
-dependencies = ["numpy", "pymysql", "aiomysql", "pymongo", "motor", "pyppeteer", "tornado", "openai"]
+dependencies = ["numpy", "pymysql", "aiomysql", "pymongo", "motor", "pyppeteer", "tornado", "openai", "ollama"]
 
 
 requires-python = ">=3.12"

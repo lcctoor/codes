@@ -5,7 +5,7 @@
 # 安装或更新
 
 ```
-pip install --upgrade git+https://github.com/lcctoor/pip.git
+pip install --upgrade git+https://github.com/lcctoor/pip.git@main
 ```
 
 # 导入

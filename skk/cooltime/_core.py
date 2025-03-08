@@ -61,7 +61,7 @@ class Cooltime():
     def __float__(self): return self._datetime.timestamp()  # 1687271066.000028
     def __int__(self): return int(float(self))  # 1687271066
     def __str__(self): return self.datetime
-    def __repr__(self): return f"arts.Cooltime<{self._datetime}>"  # arts.Cooltime<2023-06-20 22:24:26.000028>
+    def __repr__(self): return f"skk.Cooltime<{self._datetime}>"  # skk.Cooltime<2023-06-20 22:24:26.000028>
 
     @property
     def datetime(self): return str(self._datetime)  # 2023-06-20 22:24:26.000028

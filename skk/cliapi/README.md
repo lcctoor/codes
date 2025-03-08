@@ -15,7 +15,7 @@ Cliapi 是一个专为 Python 初学者设计的 WEB 包，目的是让学者能
 在命令行执行：
 
 ```
-pip install --upgrade git+https://github.com/lcctoor/pip.git
+pip install --upgrade git+https://github.com/lcctoor/pip.git@main
 ```
 
 # 教程

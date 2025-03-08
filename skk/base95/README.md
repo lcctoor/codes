@@ -15,7 +15,7 @@ Base95 是一种用 95 个可见的 ASCII 字符（含空格）表示任意二�
 # 安装或更新
 
 ```
-pip install --upgrade git+https://github.com/lcctoor/pip.git
+pip install --upgrade git+https://github.com/lcctoor/pip.git@main
 ```
 
 # 教程

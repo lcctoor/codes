@@ -14,19 +14,20 @@
 
 ## 数据库
 
-* [MySQL](https://github.com/lcctoor/pip/tree/main/skk/mysql#readme)
-* [MongoDB](https://github.com/lcctoor/pip/tree/main/skk/mongo#readme)
-* [ObjDB](https://github.com/lcctoor/pip/tree/main/skk/objdb#readme)
+* [MySQL](skk/mysql/README.md)
+* [MongoDB](skk/mongo/README.md)
+* [ObjDB](skk/objdb/README.md)
 
 ## AI
 
-* [ChatGPT](https://github.com/lcctoor/pip/tree/main/skk/openai2#readme)
+* [DeepSeek](skk/ollama2/README.md)
+* [ChatGPT](skk/openai2/README.md)
 
 ## GUI
 
-* [开发跨平台GUI应用](https://github.com/lcctoor/pip/tree/main/skk/miumapp#readme)
+* [开发跨平台GUI应用](skk/miumapp/README.md)
 
 ## 其它
 
-* [Base95编码](https://github.com/lcctoor/pip/tree/main/skk/base95#readme)
-* [模块持久化](https://github.com/lcctoor/pip/tree/main/skk/moduledb#readme)
+* [Base95编码](skk/base95/README.md)
+* [模块持久化](skk/moduledb/README.md)

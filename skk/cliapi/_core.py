@@ -79,11 +79,11 @@ async def method_base(self: RequestHandler, method: Callable[[Request], str|byte
     self.set_header("Access-Control-Allow-Origin", "*")
     r = await method(Requestplus(self, self.request))
     if type(r) is tuple:
-        if mime_type := Coolstr(suffix := f".{r[1]}").get_mime_types()[0]:
+        if mime_type := Coolstr(suffix := f".{r[1]}").analyse_mime_type()[0]:
             self.set_header("Content-Type", mime_type)
         self.write(r[0])
     else:
-        if mime_type := Coolstr(self.request.path).get_mime_types()[0]:
+        if mime_type := Coolstr(self.request.path).analyse_mime_type()[0]:
             is_text = mime_type.startswith('text/')
             if (is_text and type(r) is str) or (not is_text and type(r) is bytes):
                 self.set_header("Content-Type", mime_type)

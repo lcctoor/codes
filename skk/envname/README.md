@@ -15,7 +15,7 @@
 # 安装或更新
 
 ```
-pip install --upgrade git+https://github.com/lcctoor/pip.git
+pip install --upgrade git+https://github.com/lcctoor/pip.git@main
 ```
 
 # 教程
@@ -40,7 +40,7 @@ print( envname.read_environment_name() )  # >>> 'aliyun_hongkong_1'
 
 ```python
 import pymysql
-from arts.cooltypes import envname
+from skk import envname
 
 
 if envname.read_environment_name() == 'aliyun_hongkong_1':

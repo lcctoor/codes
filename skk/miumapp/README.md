@@ -27,7 +27,7 @@
 # 安装或更新
 
 ```
-pip install --upgrade git+https://github.com/lcctoor/pip.git
+pip install --upgrade git+https://github.com/lcctoor/pip.git@main
 ```
 
 # 检查是否安装成功
@@ -41,7 +41,7 @@ from miumapp.demo import Introduce
 asyncio.run( Introduce().start() )
 ```
 
-运行后，若显示出与图片 [效果图](https://raw.githubusercontent.com/lcctoor/pip/refs/heads/main/skk/miumapp/static/DemoUI.png) 所示一致的效果，则说明安装成功。
+运行后，若显示出与图片 [效果图](static/DemoUI.png) 所示一致的效果，则说明安装成功。
 
 # 教程
 
