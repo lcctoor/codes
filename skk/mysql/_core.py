@@ -112,7 +112,7 @@ class DB():
         self.db_name = db_name
 
     def __repr__(self):
-        return f"oomysql.DB:<{self.db_name}>"
+        return f"skk.mysql.DB:<{self.db_name}>"
     
     __str__ = __repr__
 
@@ -167,7 +167,7 @@ class Sheet():
         }
 
     def __repr__(self):
-        return f"oomysql.Sheet<{self.parent.db_name}.{self.sheet_name}>"
+        return f"skk.mysql.Sheet<{self.parent.db_name}.{self.sheet_name}>"
     
     __str__ = __repr__
 
@@ -402,7 +402,7 @@ class Sheet():
             L, R, S = key[0], key[1], key[2] or 1
             if S in [None, 1]:
                 if (L in [None, 1] and R in [None, -1]) or (L == -1 and R == 1):
-                    rdata, cursor = self.execute(f"update {self.sheet_name} set {data}{self._parse_where()}")
+                    rdata, cursor = self.execute(f"update {self.sheet_name} set {data}{self._parse_where()}")  # 无须self._parse_order(), 因为更新和删除不需要顺序
                     return cursor
         # [1]且无排序
         if key == 1 and not self._parse_order():

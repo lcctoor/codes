@@ -16,11 +16,12 @@
 
 * [MySQL](skk/mysql/README.md)
 * [MongoDB](skk/mongo/README.md)
+* [PostgreSQL](skk/postgre/README.md)
 * [ObjDB](skk/objdb/README.md)
 
 ## AI
 
-* [DeepSeek](skk/ollama2/README.md)
+* [在windows平台上部署deepseek本地版，并用python调用](skk/ollama2/README.md)
 * [ChatGPT](skk/openai2/README.md)
 
 ## GUI

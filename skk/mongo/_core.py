@@ -107,7 +107,7 @@ class DB():
             return await conn.drop_database(self.db_name)
         
     def __repr__(self):
-        return f"oomongo.DB:<{self.db_name}>"
+        return f"skk.mongo.DB:<{self.db_name}>"
     
     __str__ = __repr__
 
@@ -485,7 +485,7 @@ class Sheet():
         raise TypeError(key)
 
     def __repr__(self):
-        return f"oomongo.Sheet<{self.parent.db_name}.{self.sheet_name}>"
+        return f"skk.mongo.Sheet<{self.parent.db_name}.{self.sheet_name}>"
     
     __str__ = __repr__
 

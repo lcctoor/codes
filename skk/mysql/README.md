@@ -371,7 +371,7 @@ sheet[mc.年龄>11][2].apply(handler)  # 修改符合条件的第2条数据
 在查询、删除、修改的筛选条件中调用 year 函数
 
 ```python
-from oomysql import mf
+from skk.mysql import mf
 
 sheet[mf.year('签到日期') == 2023][:].select()
 sheet[mf.year('签到日期') == 2029][:].delete()
