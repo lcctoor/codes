@@ -1,34 +1,42 @@
 # 描述
 
-本人编写的 Python 教程。
+对 Python 开发中的常用功能的封装。
 
-[项目地址](https://github.com/lcctoor/pip)
+[源码](https://github.com/lcctoor/skk)
 
 # 作者
 
-许灿标
+作者: 许灿标
 
-[主页](https://lcctoor.com/index.html) \| [Github](https://github.com/lcctoor) \| [微信](https://lcctoor.com/cdn/WeChatQRC.jpg) \| [邮箱](mailto:lcctoor@outlook.com) \| [捐赠](https://lcctoor.com/cdn/DonationQRC-0rmb.jpg)
+链接: [主页](https://lcctoor.com) \| [Github](https://github.com/lcctoor) \| [PyPi](https://pypi.org/user/lcctoor) \| [微信](https://lcctoor.com/cdn/WeChatQRC.jpg) \| [邮箱](mailto:lcctoor@outlook.com) \| [捐赠](https://lcctoor.com/cdn/DonationQRC-0rmb.jpg)
 
-# 教程目录
+# 教程
 
-## 数据库
+## 安装
 
-* [MySQL](skk/mysql/README.md)
-* [MongoDB](skk/mongo/README.md)
-* [PostgreSQL](skk/postgre/README.md)
-* [ObjDB](skk/objdb/README.md)
+```
+pip install skk
+```
 
-## AI
+## 功能分类
 
-* [在windows平台上部署deepseek本地版，并用python调用](skk/ollama2/README.md)
-* [ChatGPT](skk/openai2/README.md)
+### 数据库
 
-## GUI
+* [MySQL](https://github.com/lcctoor/skk/tree/main/skk/mysql#readme)
+* [MongoDB](https://github.com/lcctoor/skk/tree/main/skk/mongo#readme)
+* [PostgreSQL](https://github.com/lcctoor/skk/tree/main/skk/postgre#readme)
+* [ObjDB](https://github.com/lcctoor/skk/tree/main/skk/objdb#readme)
 
-* [开发跨平台GUI应用](skk/miumapp/README.md)
+### AI
 
-## 其它
+* [在 windows 平台上部署 deepseek 本地版，并用 python 调用](https://github.com/lcctoor/skk/tree/main/skk/ollama2#readme)
+* [ChatGPT](https://github.com/lcctoor/skk/tree/main/skk/openai2#readme)
 
-* [Base95编码](skk/base95/README.md)
-* [模块持久化](skk/moduledb/README.md)
+### GUI
+
+* [开发跨平台 GUI 应用](https://github.com/lcctoor/skk/tree/main/skk/miumapp#readme)
+
+### 其它
+
+* [Base95 编码](https://github.com/lcctoor/skk/tree/main/skk/base95#readme)
+* [模块持久化](https://github.com/lcctoor/skk/tree/main/skk/moduledb#readme)
